@@ -1,10 +1,10 @@
 {
   "name": "reactjs-tabbedpane-component",
-  "version": "1.0.19",
+  "version": "1.0.21",
   "description": "A tabbed pane component using React.js",
   "author": "adafycheng",
   "license": "MIT",
-  "repository": "adafycheng/reactjs-tabbedpane-component",
+  "repository": "newproject123/ci-synk",
   "main": "dist/index.js",
   "module": "dist/index.modern.js",
   "source": "src/index.js",
@@ -53,7 +53,7 @@
   ],
   "dependencies": {
     "jquery": "^3.6.2",
-    "sass": "^1.79.0",
+    "sass": "^1.63.2",
     "yarn": "^1.22.19"
   }
 }
