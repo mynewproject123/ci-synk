@@ -13,6 +13,8 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
+      - name: List directory contents
+        run: ls -R /home/runner/work/ci-synk/ci-synk
       - name: Run Snyk to check for vulnerabilities
         uses: snyk/actions/node@master
         env:
